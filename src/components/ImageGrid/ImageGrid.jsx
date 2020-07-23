@@ -1,10 +1,24 @@
 import React from 'react';
+import ImageCard from '../ImageCard/ImageCard.jsx'
 import './ImageGrid.css';
-
-const ImageGrid = () => {
+//TODO: only display if there is data
+const ImageGrid = (props) => {
   return ( 
     <div id="ImageGrid">
-      <h1>Image Grid</h1>
+      {props.images.map((image) => {
+        return (
+          <ImageCard
+            key={image.id} 
+            id={image.id}
+            secret={image.secret}
+            server={image.server}
+            farm={image.farm}
+            title={image.title}
+            author={image.ownername}
+            largeUrl={image.url_l}
+          />
+        )
+      })}
     </div>
   );
 }

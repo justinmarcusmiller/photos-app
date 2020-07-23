@@ -1,0 +1,19 @@
+.ImageCard {
+  /* border: 1px solid black; */
+  /* height: 200px; */
+  width: 200px;
+  display: flex;
+  align-items: center;
+}
+
+.ImageCard img {
+  width: 100%;
+  border-radius: 5px;
+  max-height: 100%;
+  box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.2);
+}
+
+.ImageCard img:hover {
+  box-shadow: 0 8px 6px 0 hsla(0, 0%, 0%, 0.2);
+  transform: translateY(-5px);
+}
