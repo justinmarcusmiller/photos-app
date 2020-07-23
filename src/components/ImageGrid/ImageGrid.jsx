@@ -14,6 +14,7 @@ const ImageGrid = (props) => {
             server={image.server}
             farm={image.farm}
             title={image.title}
+            userId={image.owner}
             author={image.ownername}
             largeUrl={image.url_l}
           />
