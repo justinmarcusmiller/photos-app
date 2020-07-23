@@ -24,15 +24,8 @@
     grid-template-columns: 1fr 1fr;
   }
 }
-@media only screen and (max-width: 430px) {
-  #ImageGrid {
-    margin-top: 100px;
-  }
-}
-
-@media only screen and (max-width: 350px) {
+@media only screen and (max-width: 450px) {
   #ImageGrid {
     margin-top: 125px;
   }
 }
-
