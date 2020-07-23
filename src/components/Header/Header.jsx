@@ -4,7 +4,7 @@ import "./Header.css";
 export default function Header({ handleSearch }) {
   return (
     <header id="header">
-      <h1>Photos</h1>
+      <h1>Photo Search</h1>
       <form id="image-search-form" onSubmit={(e) => handleSearch(e)}>
         <input
           type="text"

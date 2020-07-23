@@ -17,3 +17,9 @@
   box-shadow: 0 8px 6px 0 hsla(0, 0%, 0%, 0.2);
   transform: translateY(-5px);
 }
+
+@media only screen and (max-width: 430px) {
+  .ImageCard {
+    width: 150px;
+  }
+}

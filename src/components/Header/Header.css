@@ -10,6 +10,7 @@
   top: 0;
   left: 0;
   width: 100vw;
+  z-index: 2;
   box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.2);
 }
 
@@ -32,4 +33,23 @@
 
 #header button:hover {
   background-color: darkgreen;
+}
+
+@media only screen and (max-width: 770px) {
+  #header {
+    padding: 25px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  #header {
+    padding: 10px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  #header {
+    flex-direction: column;
+    height: 100px;
+  }
 }

@@ -1,8 +1,38 @@
 #ImageGrid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
   grid-gap: 15px;
   justify-items: center;
-  margin-top: 75px;
+  margin-top: 100px;
 }
+
+@media only screen and (max-width: 1100px) {
+  #ImageGrid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  
+}
+
+@media only screen and (max-width: 860px) {
+  #ImageGrid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  #ImageGrid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media only screen and (max-width: 430px) {
+  #ImageGrid {
+    margin-top: 100px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  #ImageGrid {
+    margin-top: 125px;
+  }
+}
+
