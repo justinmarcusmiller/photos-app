@@ -20,7 +20,13 @@
   }
 }
 
-@media only screen and (max-width: 430px) {
+@media only screen and (max-width: 770px) {
+  .ImageCard {
+    width: 200px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
   .ImageCard {
     width: 150px;
   }
