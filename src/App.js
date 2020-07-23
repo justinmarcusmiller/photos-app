@@ -54,6 +54,7 @@ function App() {
       <Header handleSearch={handleSearch} />
       <ImageGrid images={images} />
       {bottomComponent}
+      <p id="disclaimer">This product uses the Flickr API but is not endorsed or certified by SmugMug, Inc.</p>
     </div>
   );
 }
