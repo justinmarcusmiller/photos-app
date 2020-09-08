@@ -5,6 +5,7 @@ import './ImageGrid.css';
 const ImageGrid = (props) => {
   return ( 
     <div id="ImageGrid">
+      // Generate image grid
       {props.images.map((image) => {
         return (
           <ImageCard

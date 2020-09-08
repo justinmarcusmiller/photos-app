@@ -1,6 +1,6 @@
 import React from "react";
 import './Navigation.css';
-//TODO: Style Nav
+
 export default function Navigation(props) {
   return (
     <nav id="navigation">
